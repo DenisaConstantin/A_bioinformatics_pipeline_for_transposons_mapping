@@ -22,11 +22,11 @@ Remnant: H{}, HB{}, Tc1{}, Tc1-2{}, etc.
 In each folder there is the coord.txt file, the file with the extracted sequence and a folder dedicated to BLAST results.
 
 To use this pipeline:
-1- download the archive
-2- unzip archive
-3- move the genomes to the "genome" folder 
-4- make sure the scripts are marked as executable (Properties -> Permissions -> Allow executing file as program)
-5- run the scripts in the following order:
-1_genome.sh
-2_remnants_processing.sh
-3_ upstream_extraction.sh or 3_ downstream_extraction.sh
+  1- download the archive (all chromosome from FlyBase);
+  2- unzip archive;
+  3- move the genomes to the "genome" folder;
+  4- make sure the scripts are marked as executable (Properties -> Permissions -> Allow executing file as program);
+  5- run the scripts in the following order:
+    1_genome.sh;
+    2_remnants_processing.sh;
+    3_upstream_extraction.sh or 3_downstream_extraction.sh.
